@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FinalDraft DocumentType="Script" Template="No" Version="3">
+  <Content>
+    <Paragraph Type="Scene Heading">
+      <Text>EXT. ATACAMA DESERT - RADIO OBSERVATORY - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>A sea of white dish antennas tilt toward the cosmos under a blanket of unpolluted Andean stars. Total silence, save for the dry whistle of high-altitude wind.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Red beacon lights pulse on the towers, synchronized with the rhythmic hum of giant sub-zero cooling pumps.</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>INT. CONTROL ROOM - CONTINUOUS</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Fluorescent glow and the green glow of twenty CRT monitors. Empty coffee cups litter the workstation of DR. ELENA VANCE (40s), haggard, brilliant, wearing an oversized wool sweater.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>A high-pitched tone WARBLES from the audio monitor. Elena freezes, sandwich halfway to her mouth.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>ELENA</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(whispering)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Not satellite chatter. Come on, tell me you are real.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Her fingers fly across the mechanical keyboard. A waterfall spectrogram blooms across the central monitor — pulsating in perfect prime-number groupings.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>MARCUS (30s), night technician in a thermal parka, shuffles in holding a lukewarm kettle.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>MARCUS</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text> Frequency drift on array four again. The frost is cracking the fiber couplers.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>ELENA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Marcus. Put the kettle down. Look at monitor three.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>Marcus glances up casually, then his eyes widen. He drops the kettle into the wastebasket.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>MARCUS</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(breathless)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>That carrier wave... what is the origin coordinates?</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>ELENA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Right ascension 19 hours, 50 minutes. Declination plus eight degrees. The Oort cloud.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>MARCUS</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Nothing is out there. Nothing with power output like that.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>ELENA</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>There is now. And Marcus? It is modulating in mathematical primes.</Text>
+    </Paragraph>
+    <Paragraph Type="Transition">
+      <Text>SMASH CUT TO:</Text>
+    </Paragraph>
+    <Paragraph Type="Scene Heading">
+      <Text>INT. PENTAGON - CRISIS BRIEFING ROOM - DAWN</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>A windowless vault beneath Washington. GENERAL TRENT (60s) slams a classified satellite printout onto the teak conference table.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>GENERAL TRENT</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>I don’t care if it’s little green men or a Russian deep-space drone. How long until the public knows?</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>DR. ARLO CHEN (50s), Science Advisor, looks pale as he adjusts his glasses.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>ARLO</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Every amateur telescope array from Chile to Munich has caught the signal. We have maybe four hours before Twitter solves the handshake.</Text>
+    </Paragraph>
+    <Paragraph Type="Transition">
+      <Text>FADE OUT.</Text>
+    </Paragraph>
+  </Content>
+</FinalDraft>

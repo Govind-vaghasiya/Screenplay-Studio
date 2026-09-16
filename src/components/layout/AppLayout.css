@@ -1,0 +1,27 @@
+/* App layout styles */
+
+.app-layout {
+  display: flex;
+  min-height: 100dvh;
+}
+
+.app-main {
+  flex: 1;
+  margin-left: var(--sidebar-width);
+  min-height: 100dvh;
+  transition: margin-left var(--transition-slow);
+}
+
+.app-layout-collapsed .app-main {
+  margin-left: var(--sidebar-collapsed-width);
+}
+
+/* Responsive: hide sidebar on small screens */
+@media (max-width: 768px) {
+  .app-main {
+    margin-left: 0;
+  }
+  .sidebar {
+    transform: translateX(-100%);
+  }
+}

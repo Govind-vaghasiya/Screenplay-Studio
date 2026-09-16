@@ -1,0 +1,43 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(resourceData) {
+      return isAuthenticated() && resourceData.ownerId == request.auth.uid;
+    }
+
+    function isCollaborator(resourceData) {
+      return isAuthenticated() && (
+        resourceData.collaborators != null && 
+        request.auth.uid in resourceData.collaborators
+      );
+    }
+
+    function isProjectOwner(projectId) {
+      let project = get(/databases/$(database)/documents/projects/$(projectId)).data;
+      return isAuthenticated() && project.ownerId == request.auth.uid;
+    }
+
+    // Projects rules
+    match /projects/{projectId} {
+      allow create: if isAuthenticated();
+      allow read: if isOwner(resource.data) || isCollaborator(resource.data);
+      allow update: if isOwner(resource.data) || isCollaborator(resource.data);
+      allow delete: if isOwner(resource.data);
+
+      // Subcollections (scripts, scenes, shots, etc.)
+      match /{allChildren=**} {
+        allow read, write: if isProjectOwner(projectId);
+      }
+    }
+
+    // User profiles rules
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isAuthenticated() && request.auth.uid == userId;
+    }
+  }
+}
